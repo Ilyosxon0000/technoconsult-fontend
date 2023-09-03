@@ -1,0 +1,159 @@
+.c797979 {
+    color: #797979;
+}
+.mr70 {
+    margin-right: 70px;
+}
+.m50 {
+    margin: 50px;
+}
+.ml70 {
+    margin-left: 70px;
+}
+.mt70 {
+    margin-top: 50px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.avatar i {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 25px;
+}
+.avatar a {
+    text-decoration: none;
+}
+.link {
+    padding-top: 7px;
+    padding-left: 15px;
+    height: 40px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.link:hover { 
+    background-color: rgba(255, 183, 0, 0.677);
+    color: #fff;
+    display: inline-block;
+    border-radius: 25px;
+}
+.link2 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 27px;
+}
+.link2:hover { 
+    background-color: rgba(255, 183, 0, 0.677);
+    color: #fff;
+    display: inline-block;
+    border-radius: 25px;
+}
+.card1 {
+    width: 340px;
+    border: 1px solid black;
+}
+
+.card1 > img {
+    width: 340px;
+}
+
+.navbar, .navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.fixed-bottom, .fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+    opacity: 1;
+    transition: opacity .5s ease;
+}
+.navbar {
+    padding: 0.5rem 1rem;
+}
+@media (min-width: 200px) {
+    .row {
+        padding: 0px !important;
+    }
+    .hidden {
+        visibility: hidden;
+        position: absolute;
+        width: 0px;
+    }
+    .hidden1 {
+        visibility: hidden;
+        position: absolute;
+        width: 0px;
+    }
+    .hidden > img {
+        width: 1px;
+    }
+    .link-a > a {
+        text-decoration: none;
+    }
+}
+    @media (min-width: 650px) {
+    
+    .p50 {
+        padding: 30px 70px;
+    }
+    .card {
+        border: none !important;
+    }
+    .bs:hover {
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    }
+    .hidden {
+        visibility: visible;
+        position: static;    
+    }
+    .hidden > img {
+        width: 400px;
+    }
+    .sarlovha {
+        padding: 50px;
+    }
+    .ml50 {
+        margin: 50px;
+    }
+    .card {
+        width: 18rem;
+    }
+    .bh51-pht {
+        width: 450px;
+        height: 400px;
+    }
+    .bh1 {
+        border-radius: 15px; 
+        margin-top: 30px; 
+        margin-left: 50px; 
+        width: 500px;
+    }
+    .tph2 img {
+        width: 550px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+}
+@media (min-width: 900px) {
+    .hidden1 {
+        visibility: visible;
+        position: static;
+    }
+}
+.container {
+    margin-left: 10px;
+}
+.btn-warning {
+    color: #fff !important;
+}
+.h450 {
+    height: 300px;
+    overflow: scroll;
+}
